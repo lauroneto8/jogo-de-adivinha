@@ -25,4 +25,8 @@ header {
 header img {
     width: 100px;
     height: 70px;
+    object-fit: contain;
+    margin-right: 15px;
+    border-radius: 6px;
+    border: 2px solid var(--amarelo);
 }
