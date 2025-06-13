@@ -1,39 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" <title>Document</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Jogo de Adivinhação</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <header>
-        <img src="logo-Dom-Carlos.jfif" alt="Logo da empresa">
-        <h1>Colégio Estadual Dom Carlos</h1>
-    </header>
-    <main>
-        <form id="rengeForm">
-            <label for="min">Número inicial</label>
-            <input type="number" id="min" name="min" required>
+<header>
+ <img src="donca.jpeg" alt="Logo Colégio" />
+ <h1>Colégio Estadual Dom Carlos</h1>
+</header>
 
-            <label for="max">Número final:</label>
-            <input type="number" id="max" name="max" required>
 
-            <button type="submit">Iniciar Jogo</button>
-        </form>
+<main>
+ <form id="rangeForm">
+   <label for="min">Número inicial:</label>
+   <input type="number" id="min" name="min" required />
 
-        <div id="game" style="display:none">
-            <label for="guess">Digite seu Palpite</label>
-            <input type="number" name="guess" id="guess">
-            <button id="guessBtn">Enviar Palpite</button>
-            <div id="feedback"></div>
-            <button id="resetBtn" style="display:none; margin-top: 15px;">Jogar Novamente</button>
-        </div>
-    </main>
-    <footer>
-        &copy; 2025 Colégio Estadual Dom Carlos
-    </footer>
+
+   <label for="max">Número final:</label>
+   <input type="number" id="max" name="max" required />
+
+
+   <button type="submit">Iniciar Jogo</button>
+ </form>
+
+
+ <div id="game" style="display:none;">
+   <label for="guess">Digite seu palpite:</label>
+   <input type="number" id="guess" name="guess" />
+   <button id="guessBtn">Enviar palpite</button>
+   <div id="feedback"></div>
+   <button id="resetBtn" style="display:none; margin-top:15px;">Jogar novamente</button>
+ </div>
+</main>
+
+
+<footer>
+ &copy; 2025 Colégio Estadual Dom Carlos
+</footer>
+
+
+<script src="script.js"></script>
 </body>
-
 </html>
