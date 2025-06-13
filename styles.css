@@ -14,3 +14,10 @@ body {
     min-height: 100vh;
 }
 
+header {
+    background-color: var(--azul);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
